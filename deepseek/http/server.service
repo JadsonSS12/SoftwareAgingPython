@@ -1,0 +1,26 @@
+[Unit]
+Description=Robust HTTP/HTTPS Server
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/opt/server
+Environment="PATH=/opt/server/venv/bin"
+EnvironmentFile=/opt/server/.env
+ExecStart=/opt/server/venv/bin/python app.py
+Restart=always
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=robust-server
+
+# Security
+PrivateTmp=true
+NoNewPrivileges=true
+ProtectSystem=strict
+ReadWritePaths=/opt/server/logs
+
+[Install]
+WantedBy=multi-user.target

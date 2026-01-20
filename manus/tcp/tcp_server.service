@@ -1,0 +1,16 @@
+[Unit]
+Description=Robust Python TCP Server
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/tcp_server_project
+ExecStart=/usr/bin/python3 /home/ubuntu/tcp_server_project/server.py
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

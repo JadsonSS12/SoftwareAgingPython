@@ -1,0 +1,54 @@
+mqtt:
+  host: 0.0.0.0
+  port: 1883
+  websocket_port: 8883
+  ssl_port: 8884
+  max_connections: 10000
+  keepalive: 60
+  persistence: true
+  auth:
+    enabled: true
+    users:
+      - username: admin
+        password: ${ADMIN_PASSWORD:admin123}
+        permissions:
+          - topic: "#"
+            access: "readwrite"
+      - username: client
+        password: ${CLIENT_PASSWORD:client123}
+        permissions:
+          - topic: "sensors/#"
+            access: "read"
+          - topic: "commands/#"
+            access: "write"
+  
+api:
+  host: 0.0.0.0
+  port: 8000
+  debug: false
+  cors_origins:
+    - "http://localhost:3000"
+    - "http://localhost:8000"
+  api_key: ${API_KEY:default_api_key_123}
+  
+database:
+  url: "sqlite:///./mqtt_broker.db"
+  echo: false
+  
+logging:
+  level: INFO
+  file: "logs/mqtt_broker.log"
+  max_size: 10485760
+  backup_count: 5
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  
+ssl:
+  enabled: false
+  certfile: "certs/cert.pem"
+  keyfile: "certs/key.pem"
+  ca_certs: "certs/ca.pem"
+  
+security:
+  secret_key: ${SECRET_KEY:your-secret-key-here-change-in-production}
+  algorithm: "HS256"
+  access_token_expire_minutes: 30

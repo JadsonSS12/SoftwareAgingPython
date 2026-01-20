@@ -1,0 +1,209 @@
+2026-01-12 16:01:55,957 - __main__ - INFO - 
+    ============================================
+    TCP Server Starting...
+    HTTP API: http://0.0.0.0:8000
+    TCP Socket: 0.0.0.0:8888
+    Workers: 4
+    Log Level: info
+    ============================================
+    
+2026-01-12 16:01:56,015 - __main__ - INFO - Starting application...
+2026-01-12 16:01:56,016 - __main__ - INFO - TCP Server started on ('0.0.0.0', 8888)
+2026-01-12 16:06:07,703 - __main__ - INFO - New connection from 127.0.0.1:32868
+2026-01-12 16:06:14,429 - __main__ - INFO - Received from 127.0.0.1:32868: hell0 world
+2026-01-12 16:06:20,094 - __main__ - INFO - Connection closed for 127.0.0.1:32868
+2026-01-12 16:06:29,931 - __main__ - INFO - Shutting down application...
+2026-01-12 16:06:29,931 - __main__ - INFO - Stopping TCP server...
+2026-01-12 16:06:29,931 - __main__ - INFO - TCP server stopped
+2026-01-13 22:52:19,586 - __main__ - INFO - 
+    ============================================
+    TCP Server Starting...
+    HTTP API: http://0.0.0.0:8000
+    TCP Socket: 0.0.0.0:8888
+    Workers: 4
+    Log Level: info
+    ============================================
+    
+2026-01-13 22:52:19,657 - __main__ - INFO - Starting application...
+2026-01-13 22:52:19,659 - __main__ - INFO - TCP Server started on ('0.0.0.0', 8888)
+2026-01-13 22:52:22,895 - __main__ - INFO - Shutting down application...
+2026-01-13 22:52:22,895 - __main__ - INFO - Stopping TCP server...
+2026-01-13 22:52:22,895 - __main__ - INFO - TCP server stopped
+2026-01-13 22:52:36,135 - __main__ - INFO - 
+    ============================================
+    TCP Server Starting...
+    HTTP API: http://0.0.0.0:8000
+    TCP Socket: 0.0.0.0:8888
+    Workers: 4
+    Log Level: info
+    ============================================
+    
+2026-01-13 22:52:36,185 - __main__ - INFO - Starting application...
+2026-01-13 22:52:36,188 - __main__ - INFO - TCP Server started on ('0.0.0.0', 8888)
+2026-01-13 22:52:52,323 - __main__ - INFO - Shutting down application...
+2026-01-13 22:52:52,323 - __main__ - INFO - Stopping TCP server...
+2026-01-13 22:52:52,323 - __main__ - INFO - TCP server stopped
+2026-01-13 22:55:09,446 - __main__ - INFO - 
+    ============================================
+    TCP Server Starting...
+    HTTP API: http://0.0.0.0:8000
+    TCP Socket: 0.0.0.0:8888
+    Workers: 4
+    Log Level: info
+    ============================================
+    
+2026-01-13 22:55:09,498 - __main__ - INFO - Starting application...
+2026-01-13 22:55:09,503 - __main__ - INFO - TCP Server started on ('0.0.0.0', 8888)
+2026-01-13 22:55:16,674 - __main__ - INFO - New connection from 127.0.0.1:57086
+2026-01-13 22:55:16,680 - __main__ - INFO - Received from 127.0.0.1:57086: Test Data from User 1\n
+2026-01-13 22:55:16,835 - __main__ - INFO - New connection from 127.0.0.1:57102
+2026-01-13 22:55:16,838 - __main__ - INFO - Received from 127.0.0.1:57102: Test Data from User 2\n
+2026-01-13 22:55:17,036 - __main__ - INFO - New connection from 127.0.0.1:57108
+2026-01-13 22:55:17,037 - __main__ - INFO - Received from 127.0.0.1:57108: Test Data from User 3\n
+2026-01-13 22:55:17,240 - __main__ - INFO - New connection from 127.0.0.1:57116
+2026-01-13 22:55:17,241 - __main__ - INFO - Received from 127.0.0.1:57116: Test Data from User 4\n
+2026-01-13 22:55:17,438 - __main__ - INFO - New connection from 127.0.0.1:57118
+2026-01-13 22:55:17,438 - __main__ - INFO - Received from 127.0.0.1:57118: Test Data from User 5\n
+2026-01-13 22:55:17,633 - __main__ - INFO - New connection from 127.0.0.1:57124
+2026-01-13 22:55:17,633 - __main__ - INFO - Received from 127.0.0.1:57124: Test Data from User 6\n
+2026-01-13 22:55:17,833 - __main__ - INFO - New connection from 127.0.0.1:57134
+2026-01-13 22:55:17,833 - __main__ - INFO - Received from 127.0.0.1:57134: Test Data from User 7\n
+2026-01-13 22:55:18,033 - __main__ - INFO - New connection from 127.0.0.1:57144
+2026-01-13 22:55:18,034 - __main__ - INFO - Received from 127.0.0.1:57144: Test Data from User 8\n
+2026-01-13 22:55:18,233 - __main__ - INFO - New connection from 127.0.0.1:57146
+2026-01-13 22:55:18,235 - __main__ - INFO - Received from 127.0.0.1:57146: Test Data from User 9\n
+2026-01-13 22:55:18,445 - __main__ - INFO - New connection from 127.0.0.1:57156
+2026-01-13 22:55:18,446 - __main__ - INFO - Received from 127.0.0.1:57156: Test Data from User 10\n
+2026-01-13 22:55:18,649 - __main__ - INFO - New connection from 127.0.0.1:57164
+2026-01-13 22:55:18,650 - __main__ - INFO - Received from 127.0.0.1:57164: Test Data from User 11\n
+2026-01-13 22:55:18,835 - __main__ - INFO - New connection from 127.0.0.1:57176
+2026-01-13 22:55:18,836 - __main__ - INFO - Received from 127.0.0.1:57176: Test Data from User 12\n
+2026-01-13 22:55:19,042 - __main__ - INFO - New connection from 127.0.0.1:57182
+2026-01-13 22:55:19,042 - __main__ - INFO - Received from 127.0.0.1:57182: Test Data from User 13\n
+2026-01-13 22:55:19,232 - __main__ - INFO - New connection from 127.0.0.1:57198
+2026-01-13 22:55:19,233 - __main__ - INFO - Received from 127.0.0.1:57198: Test Data from User 14\n
+2026-01-13 22:55:19,435 - __main__ - INFO - New connection from 127.0.0.1:57210
+2026-01-13 22:55:19,435 - __main__ - INFO - Received from 127.0.0.1:57210: Test Data from User 15\n
+2026-01-13 22:55:19,635 - __main__ - INFO - New connection from 127.0.0.1:57226
+2026-01-13 22:55:19,636 - __main__ - INFO - Received from 127.0.0.1:57226: Test Data from User 16\n
+2026-01-13 22:55:19,833 - __main__ - INFO - New connection from 127.0.0.1:57238
+2026-01-13 22:55:19,834 - __main__ - INFO - Received from 127.0.0.1:57238: Test Data from User 17\n
+2026-01-13 22:55:20,035 - __main__ - INFO - New connection from 127.0.0.1:57240
+2026-01-13 22:55:20,036 - __main__ - INFO - Received from 127.0.0.1:57240: Test Data from User 18\n
+2026-01-13 22:55:20,235 - __main__ - INFO - New connection from 127.0.0.1:57248
+2026-01-13 22:55:20,243 - __main__ - INFO - Received from 127.0.0.1:57248: Test Data from User 19\n
+2026-01-13 22:55:20,436 - __main__ - INFO - New connection from 127.0.0.1:57264
+2026-01-13 22:55:20,436 - __main__ - INFO - Received from 127.0.0.1:57264: Test Data from User 20\n
+2026-01-13 22:55:20,641 - __main__ - INFO - New connection from 127.0.0.1:57272
+2026-01-13 22:55:20,642 - __main__ - INFO - Received from 127.0.0.1:57272: Test Data from User 21\n
+2026-01-13 22:55:20,839 - __main__ - INFO - New connection from 127.0.0.1:57276
+2026-01-13 22:55:20,840 - __main__ - INFO - Received from 127.0.0.1:57276: Test Data from User 22\n
+2026-01-13 22:55:21,035 - __main__ - INFO - New connection from 127.0.0.1:57292
+2026-01-13 22:55:21,036 - __main__ - INFO - Received from 127.0.0.1:57292: Test Data from User 23\n
+2026-01-13 22:55:21,232 - __main__ - INFO - New connection from 127.0.0.1:57306
+2026-01-13 22:55:21,233 - __main__ - INFO - Received from 127.0.0.1:57306: Test Data from User 24\n
+2026-01-13 22:55:21,433 - __main__ - INFO - New connection from 127.0.0.1:57316
+2026-01-13 22:55:21,434 - __main__ - INFO - Received from 127.0.0.1:57316: Test Data from User 25\n
+2026-01-13 22:55:21,636 - __main__ - INFO - New connection from 127.0.0.1:57330
+2026-01-13 22:55:21,637 - __main__ - INFO - Received from 127.0.0.1:57330: Test Data from User 26\n
+2026-01-13 22:55:21,837 - __main__ - INFO - New connection from 127.0.0.1:57342
+2026-01-13 22:55:21,837 - __main__ - INFO - Received from 127.0.0.1:57342: Test Data from User 27\n
+2026-01-13 22:55:22,031 - __main__ - INFO - New connection from 127.0.0.1:57358
+2026-01-13 22:55:22,032 - __main__ - INFO - Received from 127.0.0.1:57358: Test Data from User 28\n
+2026-01-13 22:55:22,230 - __main__ - INFO - New connection from 127.0.0.1:57374
+2026-01-13 22:55:22,231 - __main__ - INFO - Received from 127.0.0.1:57374: Test Data from User 29\n
+2026-01-13 22:55:22,441 - __main__ - INFO - New connection from 127.0.0.1:57378
+2026-01-13 22:55:22,442 - __main__ - INFO - Received from 127.0.0.1:57378: Test Data from User 30\n
+2026-01-13 22:55:22,649 - __main__ - INFO - New connection from 127.0.0.1:57388
+2026-01-13 22:55:22,650 - __main__ - INFO - Received from 127.0.0.1:57388: Test Data from User 31\n
+2026-01-13 22:55:22,834 - __main__ - INFO - New connection from 127.0.0.1:57392
+2026-01-13 22:55:22,835 - __main__ - INFO - Received from 127.0.0.1:57392: Test Data from User 32\n
+2026-01-13 22:55:23,035 - __main__ - INFO - New connection from 127.0.0.1:57394
+2026-01-13 22:55:23,035 - __main__ - INFO - Received from 127.0.0.1:57394: Test Data from User 33\n
+2026-01-13 22:55:23,244 - __main__ - INFO - New connection from 127.0.0.1:57396
+2026-01-13 22:55:23,245 - __main__ - INFO - Received from 127.0.0.1:57396: Test Data from User 34\n
+2026-01-13 22:55:23,441 - __main__ - INFO - New connection from 127.0.0.1:57406
+2026-01-13 22:55:23,441 - __main__ - INFO - Received from 127.0.0.1:57406: Test Data from User 35\n
+2026-01-13 22:55:23,634 - __main__ - INFO - New connection from 127.0.0.1:57412
+2026-01-13 22:55:23,634 - __main__ - INFO - Received from 127.0.0.1:57412: Test Data from User 36\n
+2026-01-13 22:55:23,837 - __main__ - INFO - New connection from 127.0.0.1:57420
+2026-01-13 22:55:23,837 - __main__ - INFO - Received from 127.0.0.1:57420: Test Data from User 37\n
+2026-01-13 22:55:24,034 - __main__ - INFO - New connection from 127.0.0.1:57424
+2026-01-13 22:55:24,034 - __main__ - INFO - Received from 127.0.0.1:57424: Test Data from User 38\n
+2026-01-13 22:55:24,231 - __main__ - INFO - New connection from 127.0.0.1:57430
+2026-01-13 22:55:24,231 - __main__ - INFO - Received from 127.0.0.1:57430: Test Data from User 39\n
+2026-01-13 22:55:24,435 - __main__ - INFO - New connection from 127.0.0.1:57438
+2026-01-13 22:55:24,435 - __main__ - INFO - Received from 127.0.0.1:57438: Test Data from User 40\n
+2026-01-13 22:55:24,636 - __main__ - INFO - New connection from 127.0.0.1:57442
+2026-01-13 22:55:24,637 - __main__ - INFO - Received from 127.0.0.1:57442: Test Data from User 41\n
+2026-01-13 22:55:24,832 - __main__ - INFO - New connection from 127.0.0.1:57450
+2026-01-13 22:55:24,832 - __main__ - INFO - Received from 127.0.0.1:57450: Test Data from User 42\n
+2026-01-13 22:55:25,032 - __main__ - INFO - New connection from 127.0.0.1:57466
+2026-01-13 22:55:25,033 - __main__ - INFO - Received from 127.0.0.1:57466: Test Data from User 43\n
+2026-01-13 22:55:25,232 - __main__ - INFO - New connection from 127.0.0.1:57470
+2026-01-13 22:55:25,233 - __main__ - INFO - Received from 127.0.0.1:57470: Test Data from User 44\n
+2026-01-13 22:55:25,436 - __main__ - INFO - New connection from 127.0.0.1:57476
+2026-01-13 22:55:25,436 - __main__ - INFO - Received from 127.0.0.1:57476: Test Data from User 45\n
+2026-01-13 22:55:25,632 - __main__ - INFO - New connection from 127.0.0.1:57480
+2026-01-13 22:55:25,633 - __main__ - INFO - Received from 127.0.0.1:57480: Test Data from User 46\n
+2026-01-13 22:55:25,836 - __main__ - INFO - New connection from 127.0.0.1:57490
+2026-01-13 22:55:25,837 - __main__ - INFO - Received from 127.0.0.1:57490: Test Data from User 47\n
+2026-01-13 22:55:26,032 - __main__ - INFO - New connection from 127.0.0.1:57500
+2026-01-13 22:55:26,033 - __main__ - INFO - Received from 127.0.0.1:57500: Test Data from User 48\n
+2026-01-13 22:55:26,233 - __main__ - INFO - New connection from 127.0.0.1:54190
+2026-01-13 22:55:26,233 - __main__ - INFO - Received from 127.0.0.1:54190: Test Data from User 49\n
+2026-01-13 22:55:26,433 - __main__ - INFO - New connection from 127.0.0.1:54198
+2026-01-13 22:55:26,434 - __main__ - INFO - Received from 127.0.0.1:54198: Test Data from User 50\n
+2026-01-13 23:05:05,382 - __main__ - INFO - Connection closed for 127.0.0.1:54198
+2026-01-13 23:05:05,383 - __main__ - INFO - Connection closed for 127.0.0.1:54190
+2026-01-13 23:05:05,383 - __main__ - INFO - Connection closed for 127.0.0.1:57500
+2026-01-13 23:05:05,383 - __main__ - INFO - Connection closed for 127.0.0.1:57490
+2026-01-13 23:05:05,383 - __main__ - INFO - Connection closed for 127.0.0.1:57480
+2026-01-13 23:05:05,384 - __main__ - INFO - Connection closed for 127.0.0.1:57476
+2026-01-13 23:05:05,384 - __main__ - INFO - Connection closed for 127.0.0.1:57470
+2026-01-13 23:05:05,384 - __main__ - INFO - Connection closed for 127.0.0.1:57466
+2026-01-13 23:05:05,385 - __main__ - INFO - Connection closed for 127.0.0.1:57450
+2026-01-13 23:05:05,385 - __main__ - INFO - Connection closed for 127.0.0.1:57442
+2026-01-13 23:05:05,385 - __main__ - INFO - Connection closed for 127.0.0.1:57438
+2026-01-13 23:05:05,385 - __main__ - INFO - Connection closed for 127.0.0.1:57430
+2026-01-13 23:05:05,386 - __main__ - INFO - Connection closed for 127.0.0.1:57424
+2026-01-13 23:05:05,386 - __main__ - INFO - Connection closed for 127.0.0.1:57420
+2026-01-13 23:05:05,387 - __main__ - INFO - Connection closed for 127.0.0.1:57412
+2026-01-13 23:05:05,387 - __main__ - INFO - Connection closed for 127.0.0.1:57406
+2026-01-13 23:05:05,387 - __main__ - INFO - Connection closed for 127.0.0.1:57396
+2026-01-13 23:05:05,391 - __main__ - INFO - Connection closed for 127.0.0.1:57394
+2026-01-13 23:05:05,391 - __main__ - INFO - Connection closed for 127.0.0.1:57392
+2026-01-13 23:05:05,391 - __main__ - INFO - Connection closed for 127.0.0.1:57388
+2026-01-13 23:05:05,391 - __main__ - INFO - Connection closed for 127.0.0.1:57378
+2026-01-13 23:05:05,391 - __main__ - INFO - Connection closed for 127.0.0.1:57374
+2026-01-13 23:05:05,391 - __main__ - INFO - Connection closed for 127.0.0.1:57358
+2026-01-13 23:05:05,391 - __main__ - INFO - Connection closed for 127.0.0.1:57342
+2026-01-13 23:05:05,391 - __main__ - INFO - Connection closed for 127.0.0.1:57330
+2026-01-13 23:05:05,391 - __main__ - INFO - Connection closed for 127.0.0.1:57316
+2026-01-13 23:05:05,391 - __main__ - INFO - Connection closed for 127.0.0.1:57306
+2026-01-13 23:05:05,391 - __main__ - INFO - Connection closed for 127.0.0.1:57292
+2026-01-13 23:05:05,391 - __main__ - INFO - Connection closed for 127.0.0.1:57276
+2026-01-13 23:05:05,391 - __main__ - INFO - Connection closed for 127.0.0.1:57272
+2026-01-13 23:05:05,391 - __main__ - INFO - Connection closed for 127.0.0.1:57264
+2026-01-13 23:05:05,392 - __main__ - INFO - Connection closed for 127.0.0.1:57248
+2026-01-13 23:05:05,392 - __main__ - INFO - Connection closed for 127.0.0.1:57240
+2026-01-13 23:05:05,392 - __main__ - INFO - Connection closed for 127.0.0.1:57238
+2026-01-13 23:05:05,392 - __main__ - INFO - Connection closed for 127.0.0.1:57226
+2026-01-13 23:05:05,392 - __main__ - INFO - Connection closed for 127.0.0.1:57210
+2026-01-13 23:05:05,392 - __main__ - INFO - Connection closed for 127.0.0.1:57198
+2026-01-13 23:05:05,392 - __main__ - INFO - Connection closed for 127.0.0.1:57182
+2026-01-13 23:05:05,392 - __main__ - INFO - Connection closed for 127.0.0.1:57176
+2026-01-13 23:05:05,392 - __main__ - INFO - Connection closed for 127.0.0.1:57164
+2026-01-13 23:05:05,392 - __main__ - INFO - Connection closed for 127.0.0.1:57156
+2026-01-13 23:05:05,392 - __main__ - INFO - Connection closed for 127.0.0.1:57146
+2026-01-13 23:05:05,392 - __main__ - INFO - Connection closed for 127.0.0.1:57144
+2026-01-13 23:05:05,392 - __main__ - INFO - Connection closed for 127.0.0.1:57134
+2026-01-13 23:05:05,392 - __main__ - INFO - Connection closed for 127.0.0.1:57124
+2026-01-13 23:05:05,392 - __main__ - INFO - Connection closed for 127.0.0.1:57118
+2026-01-13 23:05:05,392 - __main__ - INFO - Connection closed for 127.0.0.1:57116
+2026-01-13 23:05:05,392 - __main__ - INFO - Connection closed for 127.0.0.1:57108
+2026-01-13 23:05:05,392 - __main__ - INFO - Connection closed for 127.0.0.1:57102
+2026-01-13 23:05:05,392 - __main__ - INFO - Connection closed for 127.0.0.1:57086
+2026-01-13 23:05:07,262 - __main__ - INFO - Shutting down application...
+2026-01-13 23:05:07,262 - __main__ - INFO - Stopping TCP server...
+2026-01-13 23:05:07,262 - __main__ - INFO - TCP server stopped

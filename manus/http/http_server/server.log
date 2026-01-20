@@ -1,0 +1,106 @@
+/home/ubuntu/http_server/app.py:231: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+/home/ubuntu/http_server/app.py:237: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("shutdown")
+INFO:     Will watch for changes in these directories: ['/home/ubuntu/http_server']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [1921] using WatchFiles
+INFO:     Started server process [1923]
+INFO:     Waiting for application startup.
+2026-01-10 20:03:36,018 - app - INFO - 🚀 Server starting up...
+2026-01-10 20:03:36,018 - app - INFO - FastAPI application initialized successfully
+INFO:     Application startup complete.
+2026-01-10 20:03:36,081 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:36,432 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:36,783 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:37,134 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:37,484 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:37,835 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:38,186 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:38,537 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:38,888 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:39,239 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:39,589 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:39,940 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:40,291 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:40,642 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:40,993 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:41,080 - app - INFO - GET /health - 200 - 0.0009s
+INFO:     127.0.0.1:60572 - "GET /health HTTP/1.1" 200 OK
+2026-01-10 20:03:41,085 - app - INFO - GET /api/info - 200 - 0.0007s
+INFO:     127.0.0.1:60588 - "GET /api/info HTTP/1.1" 200 OK
+2026-01-10 20:03:41,091 - app - INFO - Received message: Hello, World!
+2026-01-10 20:03:41,091 - app - INFO - POST /api/message - 201 - 0.0026s
+INFO:     127.0.0.1:60600 - "POST /api/message HTTP/1.1" 201 Created
+2026-01-10 20:03:41,096 - app - INFO - POST /api/message - 422 - 0.0010s
+INFO:     127.0.0.1:60610 - "POST /api/message HTTP/1.1" 422 Unprocessable Entity
+2026-01-10 20:03:41,101 - app - INFO - POST /api/message - 422 - 0.0011s
+INFO:     127.0.0.1:60616 - "POST /api/message HTTP/1.1" 422 Unprocessable Entity
+2026-01-10 20:03:41,104 - app - INFO - GET /nonexistent - 404 - 0.0005s
+INFO:     127.0.0.1:60630 - "GET /nonexistent HTTP/1.1" 404 Not Found
+2026-01-10 20:03:41,108 - app - INFO - GET / - 200 - 0.0007s
+INFO:     127.0.0.1:60638 - "GET / HTTP/1.1" 200 OK
+2026-01-10 20:03:41,111 - app - INFO - GET /health - 200 - 0.0006s
+INFO:     127.0.0.1:60652 - "GET /health HTTP/1.1" 200 OK
+2026-01-10 20:03:41,343 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:41,694 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:42,045 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:42,396 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:42,747 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:43,098 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:43,448 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:43,799 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:44,150 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:44,501 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:44,852 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:45,203 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:45,554 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:45,905 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:46,256 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:46,607 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:46,958 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:47,308 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:47,659 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:48,010 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:48,361 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:48,712 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:49,062 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:49,413 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:49,764 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:50,115 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:50,466 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:50,816 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:51,167 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:51,518 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:51,869 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:52,220 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:52,571 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:52,922 - watchfiles.main - INFO - 2 changes detected
+2026-01-10 20:03:53,272 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:53,623 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:53,974 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:54,325 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:54,676 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:55,026 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:55,377 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:55,728 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:56,079 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:56,430 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:56,781 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:57,131 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:57,482 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:57,833 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:58,184 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:58,534 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:58,885 - watchfiles.main - INFO - 1 change detected
+2026-01-10 20:03:59,236 - watchfiles.main - INFO - 1 change detected

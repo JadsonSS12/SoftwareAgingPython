@@ -1,0 +1,24 @@
+# aMQTT Broker Configuration
+listeners:
+  default:
+    type: tcp
+    bind: 0.0.0.0:1883
+    max_connections: 1000
+  ws:
+    type: ws
+    bind: 0.0.0.0:8080
+    max_connections: 100
+
+# Authentication and Authorization
+plugins:
+  - amqtt.plugins.logging_amqtt.EventLoggerPlugin
+  - amqtt.plugins.logging_amqtt.PacketLoggerPlugin
+  - amqtt.plugins.authentication.AnonymousAuthPlugin
+  - amqtt.plugins.sys.broker.BrokerSysPlugin
+
+# Plugin specific configuration
+# Note: In aMQTT 0.11+, plugin config is often nested within the plugins list or handled differently.
+# For simplicity and compatibility, we'll use the default plugin settings.
+
+# System status interval
+# sys_interval: 20

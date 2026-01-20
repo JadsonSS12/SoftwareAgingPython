@@ -1,0 +1,13 @@
+# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Security & Utilities
+python-dotenv==1.0.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Optional (for enhanced features)
+python-multipart==0.0.6
+httpx==0.25.1
+redis==5.0.1
