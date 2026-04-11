@@ -14,7 +14,7 @@ class ServerConfig:
     
     @staticmethod
     def get_port() -> int:
-        return int(os.getenv("PORT", "8000"))
+        return int(os.getenv("PORT", "8081"))
     
     @staticmethod
     def is_ssl_enabled() -> bool:

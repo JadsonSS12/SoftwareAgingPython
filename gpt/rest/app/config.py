@@ -4,7 +4,7 @@ class Settings(BaseSettings):
     app_name: str = "Production REST API"
     environment: str = "production"
     host: str = "0.0.0.0"
-    port: int = 8000
+    port: int = 8002
 
     class Config:
         env_file = ".env"

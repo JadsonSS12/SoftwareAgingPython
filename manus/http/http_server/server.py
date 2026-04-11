@@ -8,7 +8,7 @@ import argparse
 import sys
 from pathlib import Path
 
-def run_http_server(host: str = "0.0.0.0", port: int = 8000, workers: int = 4):
+def run_http_server(host: str = "0.0.0.0", port: int = 8081, workers: int = 4):
     """Run HTTP server"""
     print(f"🚀 Starting HTTP server on http://{host}:{port}")
     print(f"📊 Workers: {workers}")
@@ -27,7 +27,7 @@ def run_http_server(host: str = "0.0.0.0", port: int = 8000, workers: int = 4):
 
 def run_https_server(
     host: str = "0.0.0.0",
-    port: int = 8443,
+    port: int = 8444,
     workers: int = 4,
     certfile: str = "cert.pem",
     keyfile: str = "key.pem"
@@ -212,7 +212,7 @@ Examples:
     
     # Determine port
     if args.port is None:
-        args.port = 8443 if args.https else 8000
+        args.port = 8444 if args.https else 8081
     
     # Run server
     try:

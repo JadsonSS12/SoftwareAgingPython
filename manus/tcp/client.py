@@ -5,7 +5,7 @@ import sys
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger("TCPClient")
 
-async def tcp_echo_client(message: str, host: str = "127.0.0.1", port: int = 8888):
+async def tcp_echo_client(message: str, host: str = "127.0.0.1", port: int = 3002):
     try:
         reader, writer = await asyncio.open_connection(host, port)
         

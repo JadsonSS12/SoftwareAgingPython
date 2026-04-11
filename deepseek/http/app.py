@@ -258,7 +258,7 @@ async def general_exception_handler(request: Request, exc: Exception):
 if __name__ == "__main__":
     # Configuration
     host = os.getenv("HOST", "0.0.0.0")
-    port = int(os.getenv("PORT", "8000"))
+    port = int(os.getenv("PORT", "8081"))
     ssl_enabled = os.getenv("SSL_ENABLED", "false").lower() == "true"
     
     ssl_config = None

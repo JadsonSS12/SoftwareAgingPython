@@ -13,7 +13,7 @@ logging.basicConfig(
 logger = logging.getLogger("TCPServer")
 
 class RobustTCPServer:
-    def __init__(self, host: str = "0.0.0.0", port: int = 8888):
+    def __init__(self, host: str = "0.0.0.0", port: int = 3001):
         self.host = host
         self.port = port
         self.server: Optional[asyncio.AbstractServer] = None

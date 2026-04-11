@@ -11,7 +11,7 @@ BROKER_CONFIG = {
     "listeners": {
         "default": {
             "type": "tcp",
-            "bind": "0.0.0.0:1883",
+            "bind": "0.0.0.0:1884",
         },
         # Uncomment to enable MQTT over WebSocket
         # "ws": {

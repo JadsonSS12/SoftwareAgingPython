@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 
 class MQTTConfig(BaseModel):
     host: str = "0.0.0.0"
-    port: int = 1883
+    port: int = 1884
     websocket_port: int = 8883
     ssl_port: int = 8884
     max_connections: int = 10000

@@ -11,7 +11,7 @@ RUN pip install --no-cache-dir amqtt pyyaml
 COPY . .
 
 # Expose MQTT and WebSocket ports
-EXPOSE 1883 8080
+EXPOSE 8444 8081
 
 # Run the broker
 CMD ["python", "broker.py"]

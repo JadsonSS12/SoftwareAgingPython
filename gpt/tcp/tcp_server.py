@@ -12,7 +12,7 @@ import uvloop
 # Configuration
 # =========================
 HOST = "0.0.0.0"
-PORT = 8888
+PORT = 3001
 READ_TIMEOUT = 30          # seconds
 MAX_CONNECTIONS = 10_000
 LOG_LEVEL = logging.INFO

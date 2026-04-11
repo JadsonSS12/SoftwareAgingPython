@@ -41,7 +41,7 @@ async def main():
     """
     Main entry point for the TCP server.
     """
-    port = 8888
+    port = 3001
     # create_tcp_listener provides a robust listener with dual-stack support
     listener = await anyio.create_tcp_listener(local_port=port)
     

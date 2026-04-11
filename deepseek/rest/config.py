@@ -18,7 +18,7 @@ class Settings(BaseSettings):
     APP_VERSION: str = "1.0.0"
     ENVIRONMENT: Environment = Field(default=Environment.DEVELOPMENT)
     HOST: str = "0.0.0.0"
-    PORT: int = 8000
+    PORT: int = 8002
     DEBUG: bool = False
     API_V1_PREFIX: str = "/api/v1"
     

@@ -16,7 +16,7 @@ config = {
     'listeners': {
         'default': {
             'type': 'tcp',
-            'bind': '0.0.0.0:1883', # Standard MQTT port
+            'bind': '0.0.0.0:1884', # Standard MQTT port
             'max_connections': 1000,
         },
         'ws': {
@@ -39,7 +39,7 @@ async def start_broker():
     broker = Broker(config)
     try:
         await broker.start()
-        logger.info("MQTT Broker started successfully on port 1883")
+        logger.info("MQTT Broker started successfully on port 1884")
         
         # Keep the broker running
         while True:

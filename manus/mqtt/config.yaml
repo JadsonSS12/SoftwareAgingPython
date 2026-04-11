@@ -2,11 +2,11 @@
 listeners:
   default:
     type: tcp
-    bind: 0.0.0.0:1883
+    bind: 0.0.0.0:8444
     max_connections: 1000
   ws:
     type: ws
-    bind: 0.0.0.0:8080
+    bind: 0.0.0.0:8081
     max_connections: 100
 
 # Authentication and Authorization

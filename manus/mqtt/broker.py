@@ -34,10 +34,10 @@ async def start_broker():
             'listeners': {
                 'default': {
                     'type': 'tcp',
-                    'bind': '0.0.0.0:1883',
+                    'bind': '0.0.0.0:8444',
                 },
                 'ws-mqtt': {
-                    'bind': '0.0.0.0:8080',
+                    'bind': '0.0.0.0:8081',
                     'type': 'ws',
                 }
             },

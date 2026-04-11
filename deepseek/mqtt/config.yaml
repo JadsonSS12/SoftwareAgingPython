@@ -1,6 +1,6 @@
 mqtt:
   host: 0.0.0.0
-  port: 1883
+  port: 1884
   websocket_port: 8883
   ssl_port: 8884
   max_connections: 10000
